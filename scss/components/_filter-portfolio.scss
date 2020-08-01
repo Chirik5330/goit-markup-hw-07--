@@ -1,0 +1,39 @@
+.filter {
+  margin: 0px;
+  padding: 0px;
+  display: none;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  background-color: $accent-color;
+  color: $primacy-white-color;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px 32px;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $accent-color;
+  }
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+
+  .button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+  }
+}

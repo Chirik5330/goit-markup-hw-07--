@@ -1,0 +1,78 @@
+.tite-item {
+  display: none;
+  margin: 0px;
+  padding: 0px;
+}
+.caption.subtitle {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: $primary-text-color;
+  margin-bottom: 0px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.title-list {
+  font-size: 14px;
+  line-height: 1.71;
+  color: $title-text-color;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.list-style {
+  width: 350px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.style-blok {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-style {
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.icon-antenna {
+  width: 70px;
+  height: 70px;
+}
+
+.icon-clock {
+  width: 70px;
+  height: 70px;
+}
+
+.icon-diagram {
+  width: 70px;
+  height: 70px;
+}
+
+.icon-astronaut {
+  width: 70px;
+  height: 70px;
+}

@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+$primary-text-color: #212121;
+$title-text-color: #757575;
+$accent-color: #2196f3;
+$primacy-white-color: #ffffff;
+$font-family: roboto, raleway, sans-serif;

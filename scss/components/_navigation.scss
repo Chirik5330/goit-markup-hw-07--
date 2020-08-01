@@ -1,0 +1,38 @@
+.container.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin-right: 85px;
+}
+
+.contact.list {
+  display: flex;
+  align-items: center;
+  color: $primary-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  margin: 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  .site-nav {
+    margin-right: 50px;
+    font-family: roboto;
+    font-weight: 500;
+  }
+
+  .site-nav:last-child {
+    margin-right: 0px;
+  }
+}
+
+.contact {
+  .list {
+    .link {
+      margin-left: 85px;
+    }
+  }
+}
